@@ -1,0 +1,110 @@
+/* =========================================================
+   RESPONSIVE LAYOUT
+   ========================================================= */
+
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 140px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-photo {
+        margin-top: 60px;
+        width: 350px;
+        height: 460px;
+    }
+
+    .hero-photo img {
+        width: 300px;
+        height: 400px;
+        left: 25px;
+    }
+
+    .hero-photo::before {
+        width: 320px;
+        height: 320px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 80px 6%;
+    }
+}
+
+@media (max-width: 768px) {
+    #education {
+        padding: 60px 6%;
+    }
+
+    #education .section-header h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        padding: 18px 5%;
+    }
+
+    .hero {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero-title {
+        font-size: 19px;
+    }
+
+    .hero-photo {
+        width: 300px;
+    }
+
+    .hero-photo img {
+        width: 260px;
+        height: 350px;
+        left: 20px;
+    }
+
+    .hero-photo::before {
+        width: 280px;
+        height: 280px;
+    }
+
+    .section-header h2 {
+        font-size: 34px;
+    }
+
+    .about-card {
+        padding: 25px;
+    }
+
+    .education-card,
+    .career-box {
+        padding: 25px;
+    }
+}
